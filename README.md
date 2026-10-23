@@ -158,49 +158,51 @@ The last question should be treated as unsupported because the sample database d
 
 The main interface for entering natural-language questions and choosing whether to execute validated SQL.
 
-![Application home page](screenshots/01-home-page.png)
+<img width="741" height="517" alt="image" src="https://github.com/user-attachments/assets/9a28f088-bc6c-4e81-b398-0fa7107788f4" />
+
 
 ### 2. Database Schema Discovery
 
 Displays the available SQLite tables, columns, and relationships used to guide SQL generation.
 
-![Database schema](screenshots/02-database-schema.png)
+<img width="911" height="257" alt="image" src="https://github.com/user-attachments/assets/71070f4b-4df3-46f8-a91d-7993c0a0e76d" />
 
 ### 3. AI-Powered SQL Generation
 
 Converts a natural-language question into a SQLite query and provides an explanation.
 
-![SQL generation](screenshots/03-sql-generation.png)
+<img width="1043" height="626" alt="image" src="https://github.com/user-attachments/assets/a4b9b362-db87-4b8f-ae1b-5a0e6906640a" />
 
 ### 4. SQL Validation
 
 Validates generated SQL against the supported query policy and database schema before execution.
 
-![SQL validation](screenshots/04-sql-validation.png)
+<img width="680" height="573" alt="image" src="https://github.com/user-attachments/assets/49d7331a-73da-49f8-a252-503eadca4846" />
 
 ### 5. Read-Only Query Execution
 
 Displays the actual query results, with row limits and a CSV export option.
 
-![Query execution results](screenshots/05-query-results.png)
+<img width="987" height="485" alt="image" src="https://github.com/user-attachments/assets/7fdb2844-bb74-4d48-b998-963369c1590b" />
 
 ### 6. Query History
 
 Allows users to review previously generated queries, explanations, validation status, and execution results during the current session.
 
-![Query history](screenshots/06-query-history.png)
+<img width="965" height="515" alt="image" src="https://github.com/user-attachments/assets/2153a234-297b-4ef1-99f9-bcde5b548438" />
 
 ### 7. SQL and CSV Downloads
 
 Provides downloadable SQL queries and CSV files containing query results.
 
-![Download options](screenshots/07-csv-download.png)
+<img width="353" height="137" alt="image" src="https://github.com/user-attachments/assets/855d4050-8c01-466a-a2c9-176533f8be0c" />
+
 
 ### 8. Automated Test Coverage
 
 Pytest results demonstrating automated checks for SQL generation response parsing, SQL validation, and read-only execution.
 
-![Automated test results](screenshots/08-test-results.png)
+<img width="860" height="443" alt="image" src="https://github.com/user-attachments/assets/4f01eff0-77bc-4bfe-b6e8-fc7f7298f261" />
 
 ## SQL Validation and Safety
 
